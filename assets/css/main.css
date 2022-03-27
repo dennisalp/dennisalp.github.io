@@ -4625,7 +4625,7 @@ body {
   padding: 0;
   font-size: 100%;
   line-height: 1.5;
-  color: #464646;
+  color: #888888;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -4637,7 +4637,7 @@ h1, h2, h3, h4, stong {
   margin-top: 1em;
   padding-top: 1em;
   line-height: 1.25;
-  color: #464646;
+  color: #888888;
 }
 
 h1 {
@@ -4916,7 +4916,7 @@ sup, sub {
   margin: 0;
 }
 .user-projects li {
-  color: #464646;
+  color: #888888;
   font-size: 1.1rem;
 }
 .user-projects p {
