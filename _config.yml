@@ -1,0 +1,20 @@
+# Site settings
+title: Dennis Alp
+description: Dennis Alp - Data Scientist | Astrophysics PhD
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "http://dennisalp.com"
+
+# User settings
+username: Dennis Alp
+user_description: Data Scientist | Astrophysics PhD
+user_title: Data Scientist | Astrophysics PhD
+email: me@dennisalp.com
+#twitter_username: 
+github_username: dennisalp
+#gplus_username:
+
+# Google-analytics
+google-analytics:
+  id: G-8ZVFJEGPPE
+
+exclude: ['package.json', 'src' , 'node_modules']
