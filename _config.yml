@@ -1,12 +1,12 @@
 # Site settings
 title: Dennis Alp
-description: Dennis Alp | Data Scientist
+description: Dennis Alp's personal website
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "http://dennisalp.com"
 
 # User settings
 username: Dennis Alp
-user_description: Data Scientist
+user_description: I'm a data scientist at <b>Handelsbanken</b> in Stockholm, Sweden. I'm originally from Stockholm and have a degree in engineering physics and a PhD in astrophysics, both from <b>KTH Royal Institute of Technology</b>.
 user_title: Data Scientist
 email: me@dennisalp.com
 #twitter_username: 
