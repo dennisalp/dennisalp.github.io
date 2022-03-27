@@ -83,9 +83,9 @@
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
   &:hover {
-    background-color: $sec;
-    border-color: $sec;
-    color: $gray;
+    background-color: $gray;
+    border-color: $gray;
+    color: $sec;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
