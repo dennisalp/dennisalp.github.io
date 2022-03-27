@@ -2,7 +2,7 @@
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
-  @media only screen and (max-width: $cut) {
+  @media only screen and (min-width: $cut) {
     width: 80%;
   }
 }
@@ -21,7 +21,7 @@
   p {
     font-size: 16px;
   }
-  @media only screen and (max-width: $cut) {
+  @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
     font-size: 75px;
   }
@@ -30,4 +30,12 @@
 .user-details {
   text-align: center;
   margin: 5px auto;
+}
+
+.images-center {
+    img {
+        @media only screen and (max-width: $cut) {
+            width: 80%;
+        }
+    }
 }
