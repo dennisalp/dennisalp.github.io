@@ -4940,6 +4940,7 @@ sup, sub {
 }
 
 .images-right {
+  display: flex;
   align-items: center;
 }
 @media only screen and (min-width: 550px) {
@@ -4955,6 +4956,7 @@ sup, sub {
 }
 
 .images-left {
+  display: flex;
   align-items: center;
 }
 @media only screen and (min-width: 550px) {
