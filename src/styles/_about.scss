@@ -36,6 +36,7 @@
     img {
         @media only screen and (max-width: $cut) {
             width: 80%;
+            height: auto;
         }
     }
 }
