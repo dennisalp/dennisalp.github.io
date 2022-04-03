@@ -5015,13 +5015,13 @@ sup, sub {
   }
 }
 
-#gallery {
+#hobbies {
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
 }
 @media only screen and (min-width: 550px) {
-  #gallery {
+  #hobbies {
     width: 80%;
   }
 }
