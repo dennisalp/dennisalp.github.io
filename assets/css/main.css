@@ -4851,7 +4851,7 @@ sup, sub {
   margin: 0 auto;
   max-width: 960px;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 375px) {
   #about {
     width: 80%;
   }
