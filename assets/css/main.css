@@ -4939,15 +4939,15 @@ sup, sub {
   }
 }
 
-.images-right {
-  display: flex;
-  align-items: center;
-}
 @media only screen and (min-width: 550px) {
   .images-right {
     float: right;
     width: 48%;
   }
+}
+.images-right img {
+  display: flex;
+  align-items: center;
 }
 @media only screen and (min-width: 550px) {
   .images-right img {
@@ -4955,15 +4955,15 @@ sup, sub {
   }
 }
 
-.images-left {
-  display: flex;
-  align-items: center;
-}
 @media only screen and (min-width: 550px) {
   .images-left {
     float: left;
     width: 48%;
   }
+}
+.images-left img {
+  display: flex;
+  align-items: center;
 }
 @media only screen and (min-width: 550px) {
   .images-left img {
