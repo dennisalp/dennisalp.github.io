@@ -44,6 +44,7 @@
   }
 }
 .images-right {
+  align-items: center;
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
@@ -56,6 +57,7 @@
 }
 
 .images-left {
+  align-items: center;
   @media only screen and (min-width: $cut) {
     float: left;
     width: 48%;
