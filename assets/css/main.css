@@ -4907,6 +4907,7 @@ sup, sub {
 
 .user-projects {
   margin: 20px auto;
+  position: relative;
 }
 .user-projects img {
   max-width: 100%;
