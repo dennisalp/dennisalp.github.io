@@ -34,7 +34,7 @@
 
 .images-center {
     img {
-        @media only screen and (max-width: $cut) {
+        @media only screen and (max-width: $imgsize) {
             width: 80%;
             height: auto;
         }
