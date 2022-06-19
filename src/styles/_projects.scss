@@ -29,6 +29,14 @@
   }
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .contents {
   @media only screen and (min-width: $cut) {
     margin-left: 0;

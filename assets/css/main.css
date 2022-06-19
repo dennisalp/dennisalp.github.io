@@ -4924,6 +4924,14 @@ sup, sub {
   margin-right: 5px;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 @media only screen and (min-width: 1000px) {
   .contents {
     margin-left: 0;
