@@ -4948,6 +4948,7 @@ sup, sub {
 .images-right img {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 @media only screen and (min-width: 960px) {
   .images-right img {
@@ -4964,6 +4965,7 @@ sup, sub {
 .images-left img {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 @media only screen and (min-width: 960px) {
   .images-left img {
