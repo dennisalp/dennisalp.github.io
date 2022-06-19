@@ -1,7 +1,7 @@
 #astrophysics {
   width: 90%;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: $maxwidth;
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
