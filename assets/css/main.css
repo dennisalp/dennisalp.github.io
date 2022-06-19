@@ -4747,7 +4747,7 @@ sup, sub {
   line-height: 1;
   color: #ffffff;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .header .site-title {
     margin: 0;
     font-size: 100px;
@@ -4760,7 +4760,7 @@ sup, sub {
   color: #ffffff;
   margin-top: 10px;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .header .site-description {
     font-size: 40px;
   }
@@ -4775,7 +4775,7 @@ sup, sub {
   font-size: 15px;
   margin: 10px;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .header-links .link {
     font-size: 20px;
   }
@@ -4806,7 +4806,7 @@ sup, sub {
   color: #79bbcd;
   background: #ffffff;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .header-icons .icon {
     width: 35px;
     height: 35px;
@@ -4849,9 +4849,9 @@ sup, sub {
 #about {
   width: 90%;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 800px;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   #about {
     width: 80%;
   }
@@ -4872,7 +4872,7 @@ sup, sub {
 .user p {
   font-size: 16px;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .user {
     flex-wrap: nowrap;
     font-size: 75px;
@@ -4896,10 +4896,10 @@ sup, sub {
   flex-direction: column;
   justify-content: space-between;
   width: 90%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   #projects {
     width: 80%;
   }
@@ -4924,14 +4924,14 @@ sup, sub {
   margin-right: 5px;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .contents {
     margin-left: 0;
     width: 48%;
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .contents-right {
     float: right;
     margin-top: -5%;
@@ -4939,7 +4939,7 @@ sup, sub {
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .images-right {
     float: right;
     width: 48%;
@@ -4950,13 +4950,13 @@ sup, sub {
   align-items: center;
   justify-content: center;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .images-right img {
     float: right;
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .images-left {
     float: left;
     width: 48%;
@@ -4967,7 +4967,7 @@ sup, sub {
   align-items: center;
   justify-content: center;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .images-left img {
     float: left;
   }
@@ -5003,9 +5003,9 @@ sup, sub {
 #astrophysics {
   width: 90%;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 800px;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   #astrophysics {
     width: 80%;
   }
@@ -5020,9 +5020,9 @@ sup, sub {
 #hobbies {
   width: 90%;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 800px;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   #hobbies {
     width: 80%;
   }
