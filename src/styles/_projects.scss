@@ -12,7 +12,6 @@
 
 .user-projects {
   margin: 20px auto;
-  position: relative;
   img {
     max-width: 100%;
     height: auto;
@@ -28,14 +27,6 @@
   p {
     margin-right: 5px;
   }
-}
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .contents {
