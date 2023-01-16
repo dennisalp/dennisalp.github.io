@@ -1,8 +1,0 @@
-#hobbies {
-  width: 90%;
-  margin: 0 auto;
-  max-width: $maxwidth;
-  @media only screen and (min-width: $cut) {
-    width: 80%;
-  }
-}
