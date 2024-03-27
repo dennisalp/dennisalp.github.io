@@ -9,6 +9,8 @@ Run `set JEKYLL_ENV=production | jekyll build` to produce the _site
 
 Run `uglifyjs src/js/app.js -o assets/js/main.js` to minify JS
 
+Run `jekyll serve` to serve
+
 Devicons are [here](https://devicon.dev/).
 
 Font Awsome is [here](https://fontawesome.com/v4/icons/).

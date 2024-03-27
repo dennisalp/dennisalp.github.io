@@ -4754,15 +4754,15 @@ sup, sub {
   }
 }
 .header .site-description {
-  font-size: 14px;
   display: block;
   line-height: 1;
   color: #ffffff;
   margin-top: 10px;
+  font-size: 16px;
 }
 @media only screen and (min-width: 1000px) {
   .header .site-description {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 
@@ -4857,10 +4857,6 @@ sup, sub {
   }
 }
 
-.tech {
-  margin: 10px;
-}
-
 .user {
   text-align: center;
   font-size: 60px;
@@ -4891,113 +4887,42 @@ sup, sub {
   }
 }
 
-#projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+#tech {
   width: 90%;
-  max-width: 800px;
   margin: 0 auto;
+  max-width: 800px;
 }
 @media only screen and (min-width: 1000px) {
-  #projects {
+  #tech {
     width: 80%;
   }
 }
 
-.user-projects {
-  margin: 20px auto;
-}
-.user-projects img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-.user-projects h5 {
-  margin: 0;
-}
-.user-projects li {
-  color: #888888;
-  font-size: 1.1rem;
-}
-.user-projects p {
-  margin-right: 5px;
+.tech {
+  margin: 10px;
 }
 
-@media only screen and (min-width: 1000px) {
-  .contents {
-    margin-left: 0;
-    width: 48%;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .contents-right {
-    float: right;
-    margin-top: -5%;
-    width: 48%;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .images-right {
-    float: right;
-    width: 48%;
-  }
-}
-.images-right img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@media only screen and (min-width: 1000px) {
-  .images-right img {
-    float: right;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .images-left {
-    float: left;
-    width: 48%;
-  }
-}
-.images-left img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@media only screen and (min-width: 1000px) {
-  .images-left img {
-    float: left;
-  }
-}
-
-.project-link {
-  display: inline-block;
-  margin: 10px 0px;
-  padding: 5px;
-  color: #79bbcd;
-  background-color: transparent;
-  border: 1px solid #79bbcd;
-  border-radius: 10px;
+.user {
   text-align: center;
-  outline: none;
-  text-decoration: none;
-  cursor: pointer;
-  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.project-link:hover {
-  background-color: #79bbcd;
-  border-color: #79bbcd;
-  color: #ffffff;
-  transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
+.user p {
+  font-size: 16px;
 }
-.project-link:active {
-  background-color: #79bbcd;
-  border-color: #79bbcd;
-  color: #ffffff;
-  transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in;
+@media only screen and (min-width: 1000px) {
+  .user {
+    flex-wrap: nowrap;
+    font-size: 75px;
+  }
+}
+
+.user-details {
+  text-align: center;
+  margin: 5px auto;
 }
 
 #astrophysics {
