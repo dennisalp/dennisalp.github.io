@@ -1,4 +1,4 @@
-#about {
+#trading {
   width: 90%;
   margin: 0 auto;
   max-width: $maxwidth;
@@ -10,13 +10,4 @@
 .user-details {
   text-align: center;
   margin: 5px auto;
-}
-
-.images-center {
-    img {
-        @media only screen and (max-width: $imgsize) {
-            width: 80%;
-            height: auto;
-        }
-    }
 }

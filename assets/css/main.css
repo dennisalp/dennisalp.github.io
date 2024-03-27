@@ -4857,24 +4857,6 @@ sup, sub {
   }
 }
 
-.user {
-  text-align: center;
-  font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.user p {
-  font-size: 16px;
-}
-@media only screen and (min-width: 1000px) {
-  .user {
-    flex-wrap: nowrap;
-    font-size: 75px;
-  }
-}
-
 .user-details {
   text-align: center;
   margin: 5px auto;
@@ -4885,6 +4867,38 @@ sup, sub {
     width: 80%;
     height: auto;
   }
+}
+
+#entrepreneurship {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+@media only screen and (min-width: 1000px) {
+  #entrepreneurship {
+    width: 80%;
+  }
+}
+
+.user-details {
+  text-align: center;
+  margin: 5px auto;
+}
+
+#trading {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+@media only screen and (min-width: 1000px) {
+  #trading {
+    width: 80%;
+  }
+}
+
+.user-details {
+  text-align: center;
+  margin: 5px auto;
 }
 
 #tech {
@@ -4900,6 +4914,8 @@ sup, sub {
 
 .tech {
   margin: 10px;
+  width: calc(33.33% - 20px);
+  /* Adjust the width as needed */
 }
 
 .user {

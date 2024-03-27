@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-      {% include header.html %}
-      <section id="about">
-        {% include about.html %}
-      </section>
-      <section id="tech">
-        {% include tech.html %}
-      </section>
-      <section id="astrophysics">
-        {% include astrophysics.html %}
-      </section>
-        <!-- {{ content }} -->
-      {% include footer.html %}
-  </body>
+{% include head.html %}
+<body>
+  {% include header.html %}
+
+  <section id="about">
+    {% include about.html %}
+  </section>
+
+  <section id="entrepreneurship">
+    {% include entrepreneurship.html %}
+  </section>
+
+  <section id="trading">
+    {% include trading.html %}
+  </section>
+
+  <section id="tech">
+    {% include tech.html %}
+  </section>
+
+  <section id="astrophysics">
+    {% include astrophysics.html %}
+  </section>
+
+  {% include footer.html %}
+
+</body>
