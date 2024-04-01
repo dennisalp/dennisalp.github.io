@@ -1,7 +1,8 @@
 This is my personal website. Everything is basically from the [Particle Jekyll Theme](https://github.com/nrandecker/particle).
 
-- The things (text and images and such) are all in _includes/
-- The styles are in src/styles/
+- Basic properties are set in `_config.yml`
+- The things (text and images and such) are all in `_includes/`
+- The styles are in `src/styles/`
 
 ## Adding a New Section
 
